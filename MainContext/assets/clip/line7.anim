@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "line7",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 5,
+  "sample": 2,
+  "speed": 0.5,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            162,
+            -447
+          ]
+        },
+        {
+          "frame": 5,
+          "value": [
+            -854,
+            569
+          ]
+        }
+      ],
+      "rotation": [
+        {
+          "frame": 0,
+          "value": 45
+        }
+      ]
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "setCurrentClipNum",
+      "params": [
+        7
+      ]
+    },
+    {
+      "frame": 0,
+      "func": "setClipSpeed",
+      "params": []
+    },
+    {
+      "frame": 5,
+      "func": "check",
+      "params": []
+    }
+  ]
+}
